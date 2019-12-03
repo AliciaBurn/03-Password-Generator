@@ -25,7 +25,7 @@ function myFunction() {
   };
 
   generate.addEventListener("click", function() {
-    const length = +lengthEl.value;
+    const length = + lengthEl.value;
     const hasUpper = uppercaseEl.confirm;
     const hasLower = lowercaseEl.confirm;
     const hasNumbers = numberEl.confirm;
